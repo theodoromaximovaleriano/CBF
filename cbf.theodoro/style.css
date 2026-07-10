@@ -1,0 +1,98 @@
+body {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: rgb(198, 244, 252);
+color:black;
+}
+
+footer {
+    background-color: rgb(156, 218, 253);
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a:hover{
+    background-color: #768df3;
+    color: #1e2b22;
+}
+
+nav a{
+    color: rgb(25, 0, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo-header-cbf{
+    width: 120px;
+    height:auto
+}
+.galeria{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.foto{
+    min-width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px
+rgba(11, 0, 73, 0.2);
+background-color: rgb(206, 219, 255);
+text-align: center;
+}
+
+.main{
+    background-color: rgb(147, 248, 189);
+}
+
+.foto img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(182, 181, 255);
+}
+
+button {
+    
+    color: rgb(25, 0, 255);
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+button a:hover{
+    background-color: #768df3;
+    color: #1e2b22;
+
+}
